@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    background-color: #263238;
+    color: #fff;
+}
+
+#container {
+    height: 90vh;
+    padding: 2rem;
+}
+
+#innerContainer {
+    background-color: #0077ff;
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#innerContainer input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+#factResponse,
+h2 {
+    display: none;
+}
